@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# React JS Exercises
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+These exercises will help you apply the basic concepts of React through tiny projects. Once you finish all exercises, you'll know you've got the basics down. Then you can start learning more advanced concepts, and build more complicated projects.
 
-## Available Scripts
+So let's get started!
 
-In the project directory, you can run:
+## Exercise 1: Hello World!
+
+Every programming language starter tutorial teaches you how to output "Hello, World!" using the language.
+
+But this exercise is not just for tradition.
+
+This will asses if you actually know HTML, which is one of the many prerequisites before learning React. Start by rendering a square with a background color. Inside the square, render "Hello, World!".
+
+Helpful links:
+
+https://www.w3schools.com/html/
+https://www.w3schools.com/css/css_align.asp
 
 ### `npm start`
 
