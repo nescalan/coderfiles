@@ -13,10 +13,10 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/" class="dropdown-arrow">
+            <Link to="/" className="dropdown-arrow">
               Exercises
             </Link>
-            <ul class="sub-menus">
+            <ul className="sub-menus">
               <li>
                 <Link to="/exercise1">Exercise 1</Link>
               </li>
@@ -50,18 +50,18 @@ const Layout = () => {
             <Link to="http://">About</Link>
           </li>
           <li>
-            <Link to="http://" class="dropdown-arrow">
+            <Link to="http://" className="dropdown-arrow">
               Services
             </Link>
-            <ul class="sub-menus">
+            <ul className="sub-menus">
               <li>
-                <Link to="http://">Services 1</Link>
+                <Link to="http://">Services Sub Menu 1</Link>
               </li>
               <li>
-                <Link to="http://">Services 2</Link>
+                <Link to="http://">Services Sub Menu 2</Link>
               </li>
               <li>
-                <Link to="http://">Services 3</Link>
+                <Link to="http://">Services Sub Menu 3</Link>
               </li>
             </ul>
           </li>
