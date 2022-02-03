@@ -11,6 +11,7 @@ import {
   Exercise9,
   Home,
   Layout,
+  NoPage,
 } from "../../pages";
 import "./App.css";
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/exercise7" element={<Exercise7 />} />
           <Route path="/exercise8" element={<Exercise8 />} />
           <Route path="/exercise9" element={<Exercise9 />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
