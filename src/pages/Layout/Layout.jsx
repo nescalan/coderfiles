@@ -2,11 +2,23 @@ import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 
 const Layout = () => {
+  const updatedMenu = () => {
+    if (document.getElementById("responsive-menu").checked === true) {
+      document.getElementById("menu").style.borderBottomRightRadius = "0";
+      document.getElementById("menu").style.borderBottomLeftRadius = "0";
+    } else {
+      document.getElementById("menu").style.borderRadius = "10px";
+    }
+  };
   return (
     <>
       <nav id="menu">
         <input type="text" />
-        <input type="checkbox" id="responsive-menu" />
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onClick={() => updatedMenu()}
+        />
         <label></label>
         <ul>
           <li>
