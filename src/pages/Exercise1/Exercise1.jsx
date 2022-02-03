@@ -1,8 +1,10 @@
+import "./Exercise1.css";
 const Exercise1 = () => {
   return (
-    <div>
+    <section className="exercise1">
       <h1>Exercise 1: Hello World!</h1>
-    </div>
+      <div className="yellow-square"></div>
+    </section>
   );
 };
 

@@ -15,6 +15,7 @@ This will asses if you actually know HTML, which is one of the many prerequisite
 Helpful links:
 
 https://www.w3schools.com/html/
+
 https://www.w3schools.com/css/css_align.asp
 
 ### `npm start`
