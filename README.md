@@ -18,9 +18,10 @@ This will asses if you actually know HTML, which is one of the many prerequisite
 
 ### Helpful links:
 
-1.- https://www.w3schools.com/html/
-
-2.- https://www.w3schools.com/css/css_align.asp
+| Topic to investigate              | Link                                        |
+| --------------------------------- | ------------------------------------------- |
+| HTML                              | https://www.w3schools.com/html/             |
+| How to center a text inside a div | https://www.w3schools.com/css/css_align.asp |
 
 ## Exercise 2: Capturing User Clicks
 
@@ -34,9 +35,10 @@ Take note that capturing events such as clicks is done differently in React than
 
 ### Helpful links:
 
-1.- https://reactjs.org/docs/handling-events.html
-
-2.- https://www.w3schools.com/jsref/met_win_alert.asp
+| Topic to investigate     | Link                                              |
+| ------------------------ | ------------------------------------------------- |
+| Handling events in React | https://reactjs.org/docs/handling-events.html     |
+| Alert() method           | https://www.w3schools.com/jsref/met_win_alert.asp |
 
 ## Exercise 3: Custom Component
 
@@ -54,11 +56,11 @@ On user click, it should alert which button was clicked.
 
 ### Helpful links:
 
-1.- https://reactjs.org/docs/components-and-props.html
-
-2.- https://stackoverflow.com/questions/49706823/what-is-this-props-children-and-when-you-should-use-it
-
-3.- https://www.browserstack.com/guide/inspect-element-in-chrome
+| Topic to investigate                          | Link                                                                                                |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| React props and components                    | https://reactjs.org/docs/components-and-props.html                                                  |
+| "children" in React                           | https://stackoverflow.com/questions/49706823/what-is-this-props-children-and-when-you-should-use-it |
+| How to inspect element with developer console | https://www.browserstack.com/guide/inspect-element-in-chrome                                        |
 
 ## Exercise 4: State and Props
 
@@ -74,7 +76,9 @@ The number must increment each time the button is clicked:
 
 ### Helpful link:
 
-1.- React state hook: https://reactjs.org/docs/hooks-state.html
+| Topic to investigate | Link                                      |
+| -------------------- | ----------------------------------------- |
+| React state hook     | https://reactjs.org/docs/hooks-state.html |
 
 ## Exercise 5: Mapping Through A List And Rendering
 
@@ -113,8 +117,8 @@ Helpful links:
 2.- map() function
 3.- rendering lists in React
 
-| Topic                                              | Link                                                                                               |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Declarative programming vs. imperative programming | [https://learn.co/lessons/react-declarative-programming][pldb]                                     |
-| map() function                                     | [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map][plgh] |
-| rendering lists in React                           | [https://reactjs.org/docs/lists-and-keys.html][plgd]                                               |
+| Topic to investigate                               | Link                                                                                         |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Declarative programming vs. imperative programming | [https://learn.co/lessons/react-declarative-programming]                                     |
+| map() function                                     | [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map] |
+| rendering lists in React                           | [https://reactjs.org/docs/lists-and-keys.html]                                               |
