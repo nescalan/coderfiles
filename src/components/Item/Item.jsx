@@ -4,7 +4,7 @@ const Item = (item) => {
   return (
     <>
       <tr key={item.id}>
-        <td>{item.id}</td>
+        <th scope="row">{item.id}</th>
         <td>{item.name}</td>
       </tr>
     </>

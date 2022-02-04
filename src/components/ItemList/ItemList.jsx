@@ -4,11 +4,11 @@ import { Item } from "..";
 const ItemList = ({ Items }) => {
   return (
     <section>
-      <table border="1">
+      <table class="table table-striped">
         <thead>
           <tr>
-            <th>Code</th>
-            <th>Description</th>
+            <th scope="col">#</th>
+            <th scope="col">Description</th>
           </tr>
         </thead>
         <tbody>
