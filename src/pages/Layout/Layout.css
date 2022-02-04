@@ -1,5 +1,12 @@
-#menu {
+.menu-container-fluid {
+  width: 100%;
   background: #222222;
+}
+.menu-container {
+  width: 80%;
+  margin: auto;
+}
+#menu {
   color: #fff;
   height: 60px;
   padding-left: 18px;
