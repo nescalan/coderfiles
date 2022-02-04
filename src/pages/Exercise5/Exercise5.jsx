@@ -6,17 +6,28 @@ const animals = [
   { id: 5, name: "horse" },
 ];
 function Exercise5() {
-  const listItems = animals.map((animal) => (
-    <li key={animal.id}>{animal.name}</li>
-  ));
   return (
     <>
       <div className="container ">
         <h1>Exercise 5: Mapping Through A List And Rendering</h1>
         <p>Render a list of articles</p>
         <div className="button-container">
-          <ul>{listItems}</ul>
-          <br />
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {animals.map((animal) => (
+                <tr key={animal.id}>
+                  <th scope="row">{animal.id}</th>
+                  <td>{animal.name}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </>
