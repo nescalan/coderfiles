@@ -3,7 +3,7 @@ import "./Exercise3.css";
 
 const Exercise3 = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <h1>Exercise 3: Custom Component</h1>
       <div className="button-container">
         <ClickButton id="1">Button 1</ClickButton>

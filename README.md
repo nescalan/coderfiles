@@ -1,6 +1,6 @@
 # React JS Challenges
 
-[![N|Escalante](https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-atom-nuclear-energy-vitaliy-gorbachev-blue-vitaly-gorbachev.png)](https://github.com/nescalan)
+[![N|Escalante](https://i.postimg.cc/zDWcPTLr/Frame-1.png)](https://github.com/nescalan)
 
 # React JS Exercises
 
@@ -113,12 +113,38 @@ But not when you rendered the list declaratively. When the data changes, and you
 
 Helpful links:
 
-1.- Declarative programming vs. imperative programming
-2.- map() function
-3.- rendering lists in React
+| Topic to investigate                               | Link                                                                                       |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Declarative programming vs. imperative programming | https://learn.co/lessons/react-declarative-programming                                     |
+| map() function                                     | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map |
+| rendering lists in React                           | https://reactjs.org/docs/lists-and-keys.html                                               |
 
-| Topic to investigate                               | Link                                                                                         |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Declarative programming vs. imperative programming | [https://learn.co/lessons/react-declarative-programming]                                     |
-| map() function                                     | [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map] |
-| rendering lists in React                           | [https://reactjs.org/docs/lists-and-keys.html]                                               |
+## Exercise 6: Mapping Through A List And Rendering (With A Custom Component)
+
+In exercise 3, we mentioned that part of what makes React so great is that it allows us to create our custom, re-usable components.
+
+You only created a custom button there. This time, you'll create a custom component that displays each item from exercise 5:
+
+```sh
+['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
+```
+
+Instead of using the `sh<ul>` and `sh<li>` HTML tags, create a custom component that accepts a list as its prop, and renders it accordingly.
+
+It's up to you how you want this list will look like.
+
+**_What's the point of creating custom components?_** You'll be able to re-use them. Think of it like creating your own functions.
+
+Instead of copy-pasting the same lines of code everywhere you need them, you put those blocks of code inside a separate function, and you just call that function whenever you need it.
+
+This is very good practice because if you need to make changes to your code, you don't need to change it in every place where you used it. You just need to change it in one place.
+
+That's one of the many benefits of using custom components. There are more reasons to using custom components, which needs a whole new blog post, but this is a good start.
+
+Helpful links:
+
+| Topic to investigate       | Link                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| React props and components | https://reactjs.org/docs/components-and-props.html                                         |
+| Map() function             | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map |
+| Rendering lists in React   | https://reactjs.org/docs/lists-and-keys.html                                               |

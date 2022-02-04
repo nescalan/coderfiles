@@ -11,11 +11,13 @@ function Exercise5() {
   ));
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <h1>Exercise 5: Mapping Through A List And Rendering</h1>
         <p>Render a list of articles</p>
-        <ul>{listItems}</ul>
-        <br />
+        <div className="button-container">
+          <ul>{listItems}</ul>
+          <br />
+        </div>
       </div>
     </>
   );
