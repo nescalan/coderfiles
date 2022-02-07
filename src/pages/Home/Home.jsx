@@ -497,10 +497,12 @@ const Home = () => {
           web development as a whole.
         </p>
         <p>
-          Every exercise here is used in my daily life as a React developer. And
-          I hope this helps you get closer to your goal. Soon they'll be second
-          nature to you, and you'll be coding them without even thinking about
-          it!
+          <strong>
+            Every exercise here is used in my daily life as a React developer.
+            And I hope this helps you get closer to your goal.
+          </strong>{" "}
+          Soon they'll be second nature to you, and you'll be coding them
+          without even thinking about it!
         </p>
         <p>
           If you find yourself stuck, or need any help with the exercises, just
