@@ -21,19 +21,17 @@ const Home = () => {
           src="https://coderfiles.dev/static/f6bc72bb3dabb3819e3d9241fabbb476/1464b/ex1.webp"
           alt="exercise1"
         />
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://www.w3schools.com/html/">HTML</a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/css/css_align.asp">
-                how to center a text inside a div
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://www.w3schools.com/html/">HTML</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/css/css_align.asp">
+              how to center a text inside a div
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -64,21 +62,19 @@ const Home = () => {
           src="https://media.giphy.com/media/QseBpgmWRAUrgpxtGj/source.gif"
           alt="exercise2"
         />
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://reactjs.org/docs/handling-events.html">
-                Handling events in React
-              </a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/jsref/met_win_alert.asp">
-                alert() method
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/docs/handling-events.html">
+              Handling events in React
+            </a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/jsref/met_win_alert.asp">
+              alert() method
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -103,21 +99,19 @@ const Home = () => {
           alt="exercise 3"
         />
 
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://reactjs.org/docs/handling-events.html">
-                Handling events in React
-              </a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/jsref/met_win_alert.asp">
-                alert() method
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/docs/handling-events.html">
+              Handling events in React
+            </a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/jsref/met_win_alert.asp">
+              alert() method
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -147,16 +141,14 @@ const Home = () => {
           src="https://media.giphy.com/media/My670LXjzJvHTgcjU3/source.gif"
           alt="exercise 4"
         />
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://reactjs.org/docs/hooks-state.html">
-                React state hook
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/docs/hooks-state.html">
+              React state hook
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
 
@@ -220,26 +212,24 @@ const Home = () => {
           the smart way, then your declarative code does the change for you.
         </p>
 
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://learn.co/lessons/react-declarative-programming">
-                Declarative programming vs. imperative programming
-              </a>
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">
-                map() function
-              </a>
-            </li>
-            <li>
-              <a href="https://reactjs.org/docs/lists-and-keys.html">
-                Rendering lists in React
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://learn.co/lessons/react-declarative-programming">
+              Declarative programming vs. imperative programming
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">
+              map() function
+            </a>
+          </li>
+          <li>
+            <a href="https://reactjs.org/docs/lists-and-keys.html">
+              Rendering lists in React
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -288,26 +278,24 @@ const Home = () => {
           more reasons to using custom components, which needs a whole new blog
           post, but this is a good start.
         </p>
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://reactjs.org/docs/components-and-props.html">
-                React props and components
-              </a>
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">
-                map() function
-              </a>
-            </li>
-            <li>
-              <a href="https://reactjs.org/docs/lists-and-keys.html">
-                Rendering lists in React
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/docs/components-and-props.html">
+              React props and components
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">
+              map() function
+            </a>
+          </li>
+          <li>
+            <a href="https://reactjs.org/docs/lists-and-keys.html">
+              Rendering lists in React
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -332,16 +320,14 @@ const Home = () => {
         </p>
         <p>But there is one specific concept we didn't tackle yet:</p>
 
-        <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://reactjs.org/docs/forms.html">
-                React forms and onChange() function
-              </a>
-            </li>
-          </ul>
-        </p>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/docs/forms.html">
+              React forms and onChange() function
+            </a>
+          </li>
+        </ul>
         <hr />
       </div>
       <div className="container">
@@ -397,19 +383,134 @@ const Home = () => {
             the custom component to render each object.
           </li>
         </ol>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>
+          </li>
+          <li>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+              Flexbox
+            </a>
+          </li>
+        </ul>
+        <hr />
+      </div>
+      <div className="container">
         <p>
-          Helpful links:
-          <ul>
-            <li>
-              <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>
-            </li>
-            <li>
-              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
-                Flexbox
-              </a>
-            </li>
-          </ul>
+          Last but definitely not the least, work with an API and build a simple
+          frontend:
         </p>
+        <img
+          src="https://media.giphy.com/media/YuTVbi0u6xsgTmRcNf/source.gif"
+          alt="Exercise 9"
+        />
+        <p>
+          <strong>
+            Every React or any frontend developer must learn how to work with an
+            API. When building applications, you receive data from the backend
+            or an outside source which you will have to present nicely in the
+            UI.
+          </strong>
+        </p>
+        <p>
+          Fetch from this API endpoint:
+          https://random-data-api.com/api/users/random_user?size=10
+        </p>
+        <p>This will return ten random users.</p>
+        <p>
+          <strong>
+            Here we'll put together everything we did from the previous
+            examples:
+          </strong>
+        </p>
+        <ol>
+          <li>Show each user's basic info in a card.</li>
+          <li>
+            When a card is hovered upon, the card flips to show more information
+            about the user.
+          </li>
+          <li>
+            There should also be a button that when clicked, will fetch another
+            set of 10 random users, which updates the cards.
+          </li>
+        </ol>
+        <p>Here are the steps for this exercise:</p>
+        <li>
+          Fetch the data from the URL. You also have to handle converting the
+          JSON response into a JavaScript object in this process. (See
+          Response.json() resource link below){" "}
+        </li>
+        <li>Store it in React state.</li>
+        <li>Render the data based on the state.</li>
+        <p>
+          Take note that most APIs return data in the form of JSON. Good thing
+          we already covered JSON in the previous exercise 😄
+        </p>
+        <p>Hints:</p>
+        <ul>
+          <li>Do the fetching inside a useEffect React hook</li>
+          <li>
+            Create a custom component for the card, which accepts a user JSON
+            object. Map through the data returned from the API and render each
+            one using the custom component.
+          </li>
+        </ul>
+        <p>Helpful links:</p>
+        <ul>
+          <li>
+            <a href="https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/">
+              What is an API? In English, please
+            </a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/">
+              How to use Fetch API
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Response/json">
+              Response.json() function
+            </a>
+          </li>
+          <li>
+            <a href="https://reactjs.org/docs/hooks-effect.html">
+              React useEffect hook
+            </a>
+          </li>
+        </ul>
+        <p>
+          We'll also be needing a lot more CSS, especially for the card hover
+          effect:
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.w3schools.com/howto/howto_css_flip_card.asp">
+              Card flip effect
+            </a>
+          </li>
+        </ul>
+        <h1>Conclusion - React Practice Problems</h1>
+        <p>
+          If you're an aspiring React developer, these exercises will help you
+          understand many concepts that are integral in both React and frontend
+          web development as a whole.
+        </p>
+        <p>
+          Every exercise here is used in my daily life as a React developer. And
+          I hope this helps you get closer to your goal. Soon they'll be second
+          nature to you, and you'll be coding them without even thinking about
+          it!
+        </p>
+        <p>
+          If you find yourself stuck, or need any help with the exercises, just
+          let me know and I'd be happy to help.
+        </p>
+        <p>
+          I'm over at Twitter as well, and I have a newsletter where I send
+          updates for new posts like this.
+        </p>
+        <p> Hope you have fun learning!</p>
         <hr />
       </div>
     </>
