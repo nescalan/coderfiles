@@ -159,6 +159,89 @@ const Home = () => {
         </p>
         <hr />
       </div>
+
+      <div className="container">
+        <h1>Exercise 5: Mapping Through A List And Rendering</h1>
+        <p>
+          To get comfortable with React, you must learn declarative programming.
+        </p>
+
+        <p>
+          React is a declarative. So you need to think in "declarative
+          programming" whenever you work with React, and this exercise is
+          perfect for that. This is in contrast to "imperative programming" in
+          Vanilla JavaScript.
+        </p>
+
+        <p>
+          In this exercise, instead of manually and "imperatively" coding the
+          render of each item in a list, use the map function to "declare" how
+          React should render the list.
+        </p>
+
+        <p>Given an array:</p>
+
+        <code>['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']</code>
+
+        <p>Use the map function to render them in an unordered list:</p>
+
+        <ul>
+          <li>dog</li>
+          <li>cat</li>
+          <li>chicken</li>
+          <li>cow</li>
+          <li>horse</li>
+        </ul>
+        <p>
+          Once you learn the concept of rendering declaratively, you'll see how
+          much life becomes easier (overstatement).
+        </p>
+
+        <p>But think of it this way...</p>
+
+        <p>
+          Our example list is not that big, but imagine if the list contains
+          thousands of items, which is true when working with real-life data and
+          real-world applications.{" "}
+          <span>
+            You wouldn't want to manually code each <code>li</code> one thousand
+            times, right?
+          </span>
+        </p>
+
+        <p>
+          And what if the data changes? This is the case when working with data
+          in production environment. You'll have to change the code again.
+        </p>
+
+        <p>
+          But not when you rendered the list declaratively. When the data
+          changes, and you rendered your data presentation declaratively, a.k.a.
+          the smart way, then your declarative code does the change for you.
+        </p>
+
+        <p>
+          Helpful links:
+          <ul>
+            <li>
+              <a href="https://learn.co/lessons/react-declarative-programming">
+                Declarative programming vs. imperative programming
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">
+                map() function
+              </a>
+            </li>
+            <li>
+              <a href="https://reactjs.org/docs/lists-and-keys.html">
+                Rendering lists in React
+              </a>
+            </li>
+          </ul>
+        </p>
+        <hr />
+      </div>
       <div className="container">
         <h1>
           Exercise 6: Mapping Through A List And Rendering (With A Custom
@@ -221,6 +304,40 @@ const Home = () => {
             <li>
               <a href="https://reactjs.org/docs/lists-and-keys.html">
                 Rendering lists in React
+              </a>
+            </li>
+          </ul>
+        </p>
+        <hr />
+      </div>
+      <div className="container">
+        <h1>Exercise 7: Building A Form</h1>
+        <p>
+          Unleash some more power from React by building a form. React is great
+          for this.
+        </p>
+        <img
+          src="https://media.giphy.com/media/JtjlF8GzLQZrJnu1st/source.gif"
+          alt="Exercise 7"
+        />
+        <p>
+          Build a form that accepts a first name and a last name. And instead of
+          a boring "Submit" button, make a button that says "Greet Me" that when
+          clicked, will alert "Hello [first name] [last name]!".
+        </p>
+        <p>
+          Here you will use a combination of concepts from previous exercises,
+          such as using state, and event listening both on text input and button
+          click.
+        </p>
+        <p>But there is one specific concept we didn't tackle yet:</p>
+
+        <p>
+          Helpful links:
+          <ul>
+            <li>
+              <a href="https://reactjs.org/docs/forms.html">
+                React forms and onChange() function
               </a>
             </li>
           </ul>
