@@ -344,6 +344,74 @@ const Home = () => {
         </p>
         <hr />
       </div>
+      <div className="container">
+        <h1>Exercise 8: Rendering JSON</h1>
+        <p>
+          <span>
+            Most of the time, the structure of the data we're working with in
+            real-world applications aren't simple lists like ['dog', 'cat',
+            'chicken', 'cow', 'sheep', 'horse'].
+          </span>
+        </p>
+        <p>
+          A lot of data is stored in JSON format. This is especially true when
+          you're fetching data from a database.
+        </p>
+        <p>
+          JSON stands for JavaScript Object Notation, a type of format for data
+          interchange.
+        </p>
+        <p>
+          This type of data is just an object instead of a simpler datatype such
+          as a string.
+        </p>
+        <p>For example, an array of JSON objects looks like this:</p>
+
+        <code>
+          id: '1', <br />
+          setup: 'What's the best thing about a Boolean?', <br />
+          punchline: 'Even if you're wrong, you're only off by a bit'
+          <br />
+        </code>
+        <br />
+        <code>
+          id: '2', <br />
+          setup: 'Why do programmers wear glasses?', <br />
+          punchline: 'Because they need to C#' <br />
+        </code>
+        <p>To keep it simple, let's keep it to only two items.</p>
+
+        <p>Using the array of objects above, render the jokes with React.</p>
+
+        <p>Here's how I decided to render mine:</p>
+        <img
+          src="https://coderfiles.dev/static/d69f5ffb5589af41614c0cb1a47b35b9/12a95/ex8.webp"
+          alt="Exercise 8"
+        />
+        <p>Tip:</p>
+
+        <ol>
+          <li>Create a custom component for rendering each joke.</li>
+          <li>
+            Using the map function, map through each object in the array. Use
+            the custom component to render each object.
+          </li>
+        </ol>
+        <p>
+          Helpful links:
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>
+            </li>
+            <li>
+              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+                Flexbox
+              </a>
+            </li>
+          </ul>
+        </p>
+        <hr />
+      </div>
     </>
   );
 };
