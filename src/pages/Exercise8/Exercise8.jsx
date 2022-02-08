@@ -10,18 +10,15 @@ const jokes = [
     setup: "Why do programmers wear glasses?",
     punchline: "Because they need to C#",
   },
-];
-
-const stories = [
   {
-    id: 1,
-    setup: "What's the best thing about a Boolean?",
-    punchline: "Even if you're wrong, you're only off by a bit",
+    id: 3,
+    setup: "What is the biggest lie in the entire universe?",
+    punchline: "I have read and agree to the Terms & Conditions.",
   },
   {
-    id: 2,
-    setup: "Why do programmers wear glasses?",
-    punchline: "Because they need to C#",
+    id: 4,
+    setup: "halloween?",
+    punchline: "This is halloween",
   },
 ];
 
