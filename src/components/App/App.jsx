@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
 import {
   Exercise1,
   Exercise2,
@@ -17,7 +17,8 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter to={process.env.PUBLIC_URL + "/"}>
+    // <BrowserRouter to={process.env.PUBLIC_URL + "/"}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -34,7 +35,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
