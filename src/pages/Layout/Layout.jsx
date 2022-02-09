@@ -32,33 +32,31 @@ const Layout = () => {
                 </Link>
                 <ul className="sub-menus">
                   <li>
-                    <Link to="https://nescalan.github.io/#exercise1">
-                      Exercise 1
-                    </Link>
+                    <Link to="/#exercise1">Exercise 1</Link>
                   </li>
                   <li>
-                    <Link to="/exercise2">Exercise 2</Link>
+                    <Link to="/#exercise2">Exercise 2</Link>
                   </li>
                   <li>
-                    <Link to="/exercise3">Exercise 3</Link>
+                    <Link to="/#exercise3">Exercise 3</Link>
                   </li>
                   <li>
-                    <Link to="/exercise4">Exercise 4</Link>
+                    <Link to="/#exercise4">Exercise 4</Link>
                   </li>
                   <li>
-                    <Link to="/exercise5">Exercise 5</Link>
+                    <Link to="/#exercise5">Exercise 5</Link>
                   </li>
                   <li>
-                    <Link to="/exercise6">Exercise 6</Link>
+                    <Link to="/#exercise6">Exercise 6</Link>
                   </li>
                   <li>
-                    <Link to="/exercise7">Exercise 7</Link>
+                    <Link to="/#exercise7">Exercise 7</Link>
                   </li>
                   <li>
-                    <Link to="/exercise8">Exercise 8</Link>
+                    <Link to="/#exercise8">Exercise 8</Link>
                   </li>
                   <li>
-                    <Link to="/exercise9">Exercise 9</Link>
+                    <Link to="/#exercise9">Exercise 9</Link>
                   </li>
                 </ul>
               </li>
