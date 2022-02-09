@@ -12,7 +12,7 @@ function Exercise5() {
         <h1>Exercise 5: Mapping Through A List And Rendering</h1>
         <p>Render a list of articles</p>
         <div className="button-container">
-          <table class="table table-striped">
+          <table className="table table-striped">
             <thead>
               <tr>
                 <th scope="col">#</th>
