@@ -17,7 +17,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter to={process.env.PUBLIC_URL + "/"}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
