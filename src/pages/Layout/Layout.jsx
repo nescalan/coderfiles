@@ -32,7 +32,9 @@ const Layout = () => {
                 </Link>
                 <ul className="sub-menus">
                   <li>
-                    <Link to="/exercise1">Exercise 1</Link>
+                    <Link to="https://nescalan.github.io/#exercise1">
+                      Exercise 1
+                    </Link>
                   </li>
                   <li>
                     <Link to="/exercise2">Exercise 2</Link>
